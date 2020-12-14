@@ -10,7 +10,7 @@
 // +----------------------------------------------------------------------
 
 //------------------------
-// ThinkPHP 助手函数
+// ThinkPHP 助手函数222
 //-------------------------
 
 use think\Cache;
@@ -37,9 +37,9 @@ if (!function_exists('load_trait')) {
      * @param string    $ext 类库后缀
      * @return boolean
      */
-    function load_trait($class, $ext = EXT)
+    function load_trait($clas, $ext = EXT)
     {
-        return Loader::import($class, TRAIT_PATH, $ext);
+        return Loader::import($clas, TRAIT_PATH, $ext);
     }
 }
 
